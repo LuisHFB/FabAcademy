@@ -43,7 +43,7 @@ theme:
 nav:
   - Home: index.md
   - About:
-#     - About me: about.md
+      - About me: about.md
       - Fab Academy Student Agreement: Agreement.md
   - Assignments:
 #     - 1. Principles and Practices: 
