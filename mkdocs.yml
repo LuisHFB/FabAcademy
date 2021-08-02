@@ -1,90 +1,149 @@
-site_name: Eliana Rodrigues Martins - Fab Academy 2021
+site_name: 'FabAcademy 2021'
+repo_name: 'LuisHFB/fabAcademy2021'
+repo_url: 'https://github.com/LuisHFB/fabAcademy2021'
+site_url: 'https://github.com/LuisHFB/fabAcademy2021'
+site_description: 'Documentation page for the 2021 FabAcademy'
+copyright: 'Copyright &copy; Luis Bueno @ Insper'
 
-repo_name: 'rmeliana/FabAcademy'
-repo_url: 'https://github.com/rmeliana/FabAcademy'
-site_description: 'My project documentation following Fab Academy instructions'
-site_author: 'ElianaRM'
-site_url: 'https://rmeliana.github.io/FabAcademy/'
-copyright: 'Creative Commons Attribution Non Commercial'
+theme: 
+  name: material
+  language: en
+  features:
+    - 'navigation.tabs'
+    - 'navigation.sections' 
+    - 'toc.integrate'
+# logo: assets/logo
+# favicon: images/favicon
 
+  palette:
 
-theme:
-    name: material
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red 
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
 
-    # 404 page
-    static_templates:
-        - 404.html
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
-    # Necessary for search to work properly
-    include_search_page: false
-    search_index_only: true
+  font:
+    text: 'Roboto' 
+    code: 'Roboto Mono'
 
-    features:
-        - navigation.tabs
-        - navigation.sections
-        - navigation.expand
-        - navigation.top
-        - toc.integrate
-        - navigation.instant
-
-    font:
-        text: Roboto
-        code: Roboto Mono
-
-    palette:
-    #light mode
-        - media: "(prefers-color-scheme: light)"
-          scheme: default
-          primary: teal
-          accent: white
-          toggle:
-            icon: material/toggle-switch-off-outline
-            name: Switch to dark mode
-
-
-    #dark mode
-        - media: "(prefers-color-scheme: dark)"
-          scheme: slate
-          primary: red
-          accent: indigo
-          toggle:
-            icon: material/toggle-switch
-            name: Switch to light mode
-
-
-
-# extras
-extra_css:
-    - stylesheets/extra.css
-
+# Navegação
 nav:
-    - Home: index.md
-    - About:
-        - About me: about.md
-        - Fab Academy Student Agreement: Agreement.md
-    - Assignments:
-        - '1. Principles and Pratices': '1Principles and Practices/1Principles and Practices.md'
-        - '2. Project Management': '2Project Management/2Project Management.md'
-        - 3. Computer Aided Design: 3Computer Aided Design/3Computer Aided Design.md
-        - 4. Computer Controlled Cutting: 4Computer Controlled Cutting/4Computer Controlled Cutting.md
+  - Home: index.md
+  - About:
+#     - About me: about.md
+      - Fab Academy Student Agreement: Agreement.md
+  - Assignments:
+#     - 1. Principles and Practices: 
+#         - Group Assignment: 1Group.md
+#         - Individual Assignment: 1Ind.md
+#     - 2. Project Management: 
+#         - Group Assignment: 2Group.md
+#         - Individual Assignment: 2Ind.md
+#     - 3. Computer Aided Design:
+#         - Group Assignment: 3Group.md
+#         - Individual Assignment: 3Ind.md
+      - 4. Computer Controlled Cutting:
+#         - Group Assignment: 4Group.md
+          - Individual Assignment: 4Ind.md
+#     - 5. Electronics Production :
+#         - Group Assignment: 5Group.md
+#         - Individual Assignment: 5Ind.md
+#     - 6. 3D Scanning and Printing :
+#         - Group Assignment: 6Group.md
+#         - Individual Assignment: 6Ind.md
+#     - 7. Electronics Design :
+#         - Group Assignment: 7Group.md
+#         - Individual Assignment: 7Ind.md
+#     - 8. Computer Controlled Machining :
+#         - Group Assignment: 8Group.md
+#         - Individual Assignment: 8Ind.md
+#     - 9. Embedded Programming :
+#         - Group Assignment: 9Group.md
+#         - Individual Assignment: 9Ind.md
+#     - 10. Mechanical Design, Machine Design :
+#         - Group Assignment: 10Group.md
+#         - Individual Assignment: 10Ind.md
+#     - 11. Input Devices :
+#         - Group Assignment: 11Group.md
+#         - Individual Assignment: 11Ind.md
+#     - 12. Moulding and Casting :
+#         - Group Assignment: 12Group.md
+#         - Individual Assignment: 12Ind.md
+#     - 13. Output Devices :
+#         - Group Assignment: 13Group.md
+#         - Individual Assignment: 13Ind.md
+#     - 14. Embedded Networking and Communications :
+#         - Group Assignment: 14Group.md
+#         - Individual Assignment: 14Ind.md
+#     - 15. Interface and Application Programming :
+#         - Group Assignment: 15Group.md
+#         - Individual Assignment: 15Ind.md
+#     - 16. Wildcard Week :
+#         - Group Assignment: 16Group.md
+#         - Individual Assignment: 16Ind.md
+#     - 17. Applications and Implications :
+#         - Group Assignment: 17Group.md
+#         - Individual Assignment: 17Ind.md
+#     - 18. Invention, Intellectual Property and Business Models :
+#         - Group Assignment: 18Group.md
+#         - Individual Assignment: 18Ind.md
+#     - 19. Project Development :
+#         - Group Assignment: 19Group.md
+#         - Individual Assignment: 19Ind.md
 
-
+#extras
+extra_css:
+  - css/extra.css
 
 markdown_extensions:
-    - attr_list
-    - toc:
-        permalink: true
-    - admonition
-    - pymdownx.details
-    - pymdownx.tabbed
-    - pymdownx.superfences
-    - pymdownx.highlight
-    - admonition #Admonitions are created by !!!type
-    - pymdownx.details
-    - pymdownx.emoji:
-        emoji_index: !!python/name:materialx.emoji.twemoji
-        emoji_generator: !!python/name:materialx.emoji.to_svg
+  - markdown.extensions.attr_list
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 plugins:
-    - git-revision-date
     - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: 'https://github.com/LuisHFB/fabAcademy2021'

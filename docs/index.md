@@ -1,13 +1,13 @@
 # Home
 
-Hi everyone! I'm Eliana :slight_smile: and this is my Fab Academy site.
-Here you can find details about my project documentation, such as:
+Hi everyone! I'm Luís :slight_smile: and this is my Fab Academy documentation.
+Here you can find details about my project logs, such as:
 
 * my weekly assignments
-* the inspiring ideas
+* my inspirations 
 * the development of my final project
 
-To know a little [about me](https://rmeliana.github.io/FabAcademy/about/) go ahead and explore this site.
+To know a little [about me]() go ahead and explore this site.
 
 ## Fab Academy
 

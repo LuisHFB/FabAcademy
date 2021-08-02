@@ -1,2 +1,2 @@
-# FabAcademy
-Documentation of my project following Fab Academy instructions
+# fabAcademy2021
+FabAcademy 2021 Documentation
