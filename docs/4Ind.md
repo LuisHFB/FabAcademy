@@ -1,3 +1,9 @@
+# Individual Assignment
+
+- Cut something on the vinyl cutter.
+- Design, lasercut, and document a parametric construction kit, accounting for the lasercutter kerf which can be assembled in multiple ways and for extra credit include elements that aren’t flat
+
+
 # CutStudio **Print & Cut**
 
 
