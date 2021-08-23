@@ -1,7 +1,7 @@
-site_name: 'FabAcademy 2021'
-repo_name: 'LuisHFB/fabAcademy2021'
-repo_url: 'https://github.com/LuisHFB/fabAcademy2021'
-site_url: 'https://github.com/LuisHFB/fabAcademy2021'
+site_name: 'FabAcademy'
+repo_name: 'LuisHFB/fabAcademy'
+repo_url: 'https://github.com/LuisHFB/fabAcademy'
+site_url: 'https://github.com/LuisHFB/fabAcademy'
 site_description: 'Documentation page for the 2021 FabAcademy'
 copyright: 'Copyright &copy; Luis Bueno @ Insper'
 
@@ -14,6 +14,21 @@ theme:
     - 'toc.integrate'
 # logo: assets/logo
 # favicon: images/favicon
+
+  static_templates:
+    - 404.html
+
+  # Necessary for search to work properly
+  include_search_page: false
+  search_index_only: true
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - navigation.instant
 
   palette:
 
@@ -56,10 +71,10 @@ nav:
 #         - Group Assignment: 3Group.md
 #         - Individual Assignment: 3Ind.md
       - 4. Computer Controlled Cutting:
-#         - Group Assignment: 4Group.md
+          - Group Assignment: 4Group.md
           - Individual Assignment: 4Ind.md
-#     - 5. Electronics Production :
-#         - Group Assignment: 5Group.md
+      - 5. Electronics Production :
+          - Group Assignment: 5Group.md
 #         - Individual Assignment: 5Ind.md
 #     - 6. 3D Scanning and Printing :
 #         - Group Assignment: 6Group.md
@@ -146,4 +161,4 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: 'https://github.com/LuisHFB/fabAcademy2021'
+      link: 'https://github.com/LuisHFB/fabAcademy'
