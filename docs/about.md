@@ -25,5 +25,7 @@ Hello, my name is ***Luís Henrique Fonseca Bueno*** and I'm an curious Industri
 
 ## Insper FabLab
 
-![](imgs/insper1.jpg){: .left style="max-width:55vh"} 
-![](imgs/insper2.jpg){: .right style="max-width:55vh"}
+Since mid 2015 I've been working at Insper Fablab as a FabGuru, helping students, teachers and the outside community use the machines available at the lab, as well as collaborating in projects for almost all areas of the school.
+
+![](imgs/insper1.jpg){: .left style="max-width:45vh"} 
+![](imgs/insper2.jpg){: .right style="max-width:45vh"}

@@ -61,9 +61,8 @@ nav:
       - About me: about.md
       - Fab Academy Student Agreement: Agreement.md
   - Assignments:
-#     - 1. Principles and Practices: 
-#         - Group Assignment: 1Group.md
-#         - Individual Assignment: 1Ind.md
+      - 1. Principles and Practices: 
+          - Individual Assignment: 1Ind.md
 #     - 2. Project Management: 
 #         - Group Assignment: 2Group.md
 #         - Individual Assignment: 2Ind.md
