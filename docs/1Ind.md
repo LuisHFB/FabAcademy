@@ -4,6 +4,8 @@
 
 ## Robozito 2.0 - Quarantine edition
 
+![](imgs/1/ConceptSketch.jpg)
+
 In this first week we are supposed to start to think about our final project and produce some sketches of it.
 
 ![](imgs/1/RobozitoFrente.png){: .left}
@@ -16,10 +18,18 @@ My idea is to create a improved version of [Robozito](https://luishfb.github.io/
 - Clocking the position of the arms correctly with the servos
 - Redesigning some 3d printed parts to make them more sturdy
 - Make the wire routing easier
-- Implement a servo driver so to make motor operation smother
+- Implement a servo driver so to make motor operation smoother
+- Add the use of batteries (need to have a BMS(battery manegement system))
 
 ![](imgs/1/ESPCam.webp){: .center}
 
 Then swap the ESP8266 with an ESP32 with camera module so it would be possible to use it as a FPV Cam for the remote players.
 
 A point of interest is developing fun activities so people can play remotely, and adapting Robozito to said activities like solving puzzles or navigating some maze.
+
+For Robozito to work well as a remote game it have to get some modifications so it can stay upright and be easier to manuever. 
+
+
+![](imgs/1/ConceptSketch2.jpg)
+
+![](imgs/1/ConceptSketch3.jpg)
