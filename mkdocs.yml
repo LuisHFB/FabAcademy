@@ -63,9 +63,8 @@ nav:
   - Assignments:
       - 1. Principles and Practices: 
           - Individual Assignment: 1Ind.md
-#     - 2. Project Management: 
-#         - Group Assignment: 2Group.md
-#         - Individual Assignment: 2Ind.md
+      - 2. Project Management: 
+          - Individual Assignment: 2Ind.md
 #     - 3. Computer Aided Design:
 #         - Group Assignment: 3Group.md
 #         - Individual Assignment: 3Ind.md
@@ -75,8 +74,8 @@ nav:
       - 5. Electronics Production :
           - Group Assignment: 5Group.md
 #         - Individual Assignment: 5Ind.md
-#     - 6. 3D Scanning and Printing :
-#         - Group Assignment: 6Group.md
+      - 6. 3D Scanning and Printing :
+          - Group Assignment: 6Group.md
 #         - Individual Assignment: 6Ind.md
 #     - 7. Electronics Design :
 #         - Group Assignment: 7Group.md
