@@ -38,7 +38,7 @@ theme:
       primary: red 
       accent: indigo
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/lightbulb
         name: Switch to dark mode
 
     # Dark mode
@@ -47,7 +47,7 @@ theme:
       primary: red
       accent: orange
       toggle:
-        icon: material/toggle-switch
+        icon: material/lightbulb-outline
         name: Switch to light mode
 
   font:
