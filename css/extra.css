@@ -1,0 +1,17 @@
+
+.center {
+    display: block;
+    margin: 0 auto;
+   }
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+img {
+    max-height:40vw;
+}
+
